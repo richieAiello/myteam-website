@@ -1,13 +1,14 @@
 import { Link } from 'react-router-dom';
 import clsx from 'clsx';
 
-const ContactBtn = ({ light, dark }) => {
+const ContactBtn = ({ light, dark, onClick }) => {
   return (
     <Link
       to="contact"
+      onClick={onClick}
       className={`
         bg-transparent border-2 border-solid rounded-3xl 
-        pt-[0.5625rem] pb-[0.6875rem] px-8 duration-300
+        pt-[0.5625rem] pb-[0.6875rem] px-8 duration-300 inline-block
         ${clsx({
           'border-white': light,
           'text-white': light,
