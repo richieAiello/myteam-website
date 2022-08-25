@@ -1,9 +1,11 @@
-import HomeHero from '../components/home/hero/HomeHero';
+import HeroHome from '../components/home/hero-section/HeroHome';
+import Build from '../components/home/build-section/Build';
 
 const Home = props => {
   return (
     <main className="">
-      <HomeHero />
+      <HeroHome />
+      <Build />
     </main>
   );
 };
