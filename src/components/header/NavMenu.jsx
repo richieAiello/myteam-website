@@ -1,11 +1,12 @@
 import { NavLink } from 'react-router-dom';
 import ContactBtn from '../shared-components/ContactBtn';
+import pattern from '../../assets/bg-patterns/pattern-nav.svg';
 
 const NavMenu = ({ className, onClick }) => {
   return (
     <div
       className={`
-        h-screen w-[min(100%,255px)] absolute top-0 right-0 z-20 bg-police-blue text-white
+        h-screen w-[min(100%,255px)] absolute top-0 right-0 z-20 bg-police-blue text-white overflow-x-hidden
         ${className}
         md:h-max md:w-full md:static md:bg-transparent md:block
       `}
@@ -25,6 +26,11 @@ const NavMenu = ({ className, onClick }) => {
         </ul>
         <ContactBtn light onClick={onClick} />
       </div>
+      <img
+        src={pattern}
+        alt=""
+        className="absolute -right-[100px] bottom-0 -z-10 md:hidden"
+      />
     </div>
   );
 };
