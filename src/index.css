@@ -40,6 +40,10 @@
 ****************************************/
 .body {
   font-family: 'Livvic', sans-serif;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  line-height: 1.5625rem;
+  color: #fff;
 }
 
 /* .active {
@@ -85,3 +89,45 @@
 /****************************************
   Headings
 ****************************************/
+.heading {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+.heading--hero,
+.heading--hero--secondary {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+}
+
+.heading-sub {
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+@media (min-width: 768px) {
+  .heading--hero,
+  .heading--hero--secondary {
+    font-size: 4rem;
+    line-height: 3.5rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .heading {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .heading--hero {
+    font-size: 6.25rem;
+    line-height: 6.25rem;
+  }
+
+  .heading--hero--secondary {
+    line-height: 6.25rem;
+  }
+}
