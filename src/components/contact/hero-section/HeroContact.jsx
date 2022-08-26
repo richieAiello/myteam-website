@@ -4,7 +4,7 @@ import chart from '../../../assets/icons/icon-chart.svg';
 
 const HeroContact = props => {
   return (
-    <section className="mb-14">
+    <section className="">
       <h1 className="heading--hero--secondary text-center mb-4">
         Contact
       </h1>
