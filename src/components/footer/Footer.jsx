@@ -3,7 +3,6 @@ import logo from '../../assets/logo.svg';
 import { ReactComponent as Facebook } from '../../assets/icons/icon-facebook.svg';
 import { ReactComponent as Pinterest } from '../../assets/icons/icon-pinterest.svg';
 import { ReactComponent as Twitter } from '../../assets/icons/icon-twitter.svg';
-import '../../styles/footer.css';
 
 const Footer = props => {
   return (
