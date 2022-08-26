@@ -18,7 +18,7 @@ module.exports = {
         'darkest-green': '#002529',
         'rapture-blue': '#79C8C7',
         'police-blue': '#2C6269',
-        'light-coral': '#F67E7E',
+        coral: '#F67E7E',
       },
     },
   },
