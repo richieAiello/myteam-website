@@ -5,7 +5,7 @@ import Ready from '../components/shared-components/Ready';
 
 const Home = props => {
   return (
-    <main className="">
+    <main>
       <HeroHome />
       <Build />
       <Stories />
