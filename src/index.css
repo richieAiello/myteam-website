@@ -46,6 +46,10 @@
   color: #fff;
 }
 
+#root {
+  overflow: hidden;
+}
+
 /* .active {
   text-decoration: 2px underline;
   text-underline-offset: 0.25rem;
