@@ -1,5 +1,4 @@
 import Nav from './Nav';
-import '../../styles/nav.css';
 
 const Header = props => {
   return (

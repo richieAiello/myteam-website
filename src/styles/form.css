@@ -1,0 +1,29 @@
+.form {
+  display: grid;
+  row-gap: 1.5rem;
+  width: 100%;
+}
+
+.form__wrapper {
+}
+
+.form__input,
+.form__input--message {
+  padding-left: 0.875rem;
+  width: 100%;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+}
+
+.form__input {
+  padding-bottom: 1rem;
+}
+
+.form__input--message {
+  padding-bottom: 3rem;
+  resize: none;
+}
+
+.form__error {
+  color: #f67e7e;
+}
