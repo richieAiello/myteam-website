@@ -50,11 +50,11 @@
   overflow: hidden;
 }
 
-/* .active {
+.active {
   text-decoration: 2px underline;
   text-underline-offset: 0.25rem;
-  color: #fbaf85;
-} */
+  color: #f67e7e;
+}
 
 .ninja {
   clip: rect(1px, 1px, 1px, 1px);

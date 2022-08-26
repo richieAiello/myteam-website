@@ -17,7 +17,7 @@ const Stories = props => {
           {data.map(item => {
             return (
               <Story
-                key={item.key}
+                key={item.name}
                 quote={item.quote}
                 name={item.name}
                 position={item.position}
