@@ -45,7 +45,7 @@ const Nav = props => {
   };
 
   return (
-    <nav className="container--nav flex justify-between items-center">
+    <nav className="container flex justify-between items-center">
       <img src={logo} alt="MyTeam Logo" className="" />
       <Hamburger
         className={clsx({
