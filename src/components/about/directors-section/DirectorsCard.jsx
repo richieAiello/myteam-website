@@ -11,7 +11,7 @@ const DirectorsCard = props => {
   const handleButtonClick = e => setFlipped(!flipped);
 
   return (
-    <div className="bg-state-green h-[253px] px-6 relative flex flex-col items-center">
+    <div className="bg-state-green h-[253px] px-6 relative flex flex-col items-center lg:px-12">
       {!flipped ? (
         <>
           <img
