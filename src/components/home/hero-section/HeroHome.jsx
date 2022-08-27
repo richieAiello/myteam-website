@@ -16,6 +16,7 @@ const HeroHome = props => {
           src={patternMobile}
           alt=""
           className="absolute bottom-0 right-0 left-0 mx-auto"
+          loading="lazy"
         />
       </section>
     </div>

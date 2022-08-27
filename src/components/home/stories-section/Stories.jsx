@@ -30,11 +30,13 @@ const Stories = props => {
           src={patternTop}
           alt=""
           className="absolute -z-10 -top-[8.75rem] -left-6 md:-top-[6.25rem] md:-left-[6.125rem]"
+          loading="lazy"
         />
         <img
           src={patternBottom}
           alt=""
           className="absolute -z-10 -bottom-[10.25rem] -right-6 md:-bottom-[6.25rem] md:-right-[6.125rem]"
+          loading="lazy"
         />
       </section>
     </div>

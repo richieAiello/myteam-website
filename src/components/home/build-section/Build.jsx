@@ -36,6 +36,7 @@ const Build = props => {
           src={pattern}
           alt=""
           className="absolute -top-16 -right-[7.75rem] -z-10 md:-top-[6.25rem] md:-right-[12.375rem]"
+          loading="lazy"
         />
       </section>
     </div>

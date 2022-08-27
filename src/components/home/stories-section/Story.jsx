@@ -12,6 +12,7 @@ const Story = ({ quote, name, position, image }) => {
         src={image}
         alt=""
         className="h-16 w-16 rounded-full border-2 border-[#C4FFFE] border-solid mx-auto"
+        loading="lazy"
       />
     </div>
   );
