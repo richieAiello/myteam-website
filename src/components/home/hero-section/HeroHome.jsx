@@ -31,7 +31,6 @@ const HeroHome = props => {
           src={patternTop}
           alt=""
           className="hidden absolute top-0 -left-[16.5625rem] lg:block"
-          loading="lazy"
         />
       </section>
     </div>
