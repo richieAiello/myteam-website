@@ -5,7 +5,7 @@ const Ready = props => {
   return (
     <div className="bg-coral py-[5.25rem] overflow-hidden md:py-[4.75rem]">
       <section
-        className="container relative z-0 text-center flex flex-col items-center
+        className="container--secondary relative z-0 text-center flex flex-col items-center
         md:flex-row md:justify-between"
       >
         <h2 className="heading mb-6 text-state-green max-w-[12ch] md:mb-0 md:max-w-full">

@@ -8,7 +8,7 @@ const Stories = props => {
 
   return (
     <div className="bg-jungle-green pt-[8.75rem] pb-[10.25rem] md:py-[6.25rem]">
-      <section className="container relative z-0 text-center">
+      <section className="container--secondary relative z-0 text-center">
         <h2 className="heading max-w-[327px] mx-auto mb-12 md:max-w-full">
           Delivering real results for top companies. Some of our
           <span className="text-rapture-blue"> success stories.</span>

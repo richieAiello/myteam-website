@@ -68,17 +68,20 @@
 
 .container {
   margin-inline: auto;
-  width: min(100% - 3rem, 375px);
-}
-
-.container--nav {
-  margin-inline: auto;
   width: calc(100% - 3rem);
 }
 
+.container--secondary {
+  margin-inline: auto;
+  width: min(100% - 3rem, 375px);
+}
+
 @media (min-width: 768px) {
-  .container,
-  .container--nav {
+  .container {
+    width: 689px;
+  }
+
+  .container--secondary {
     width: 573px;
   }
 }
