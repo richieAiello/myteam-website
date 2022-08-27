@@ -6,13 +6,15 @@ import pattern from '../../../assets/bg-patterns/bg-pattern-home-3.svg';
 
 const Build = props => {
   return (
-    <div className="bg-state-green py-16 md:py-[6.25rem]">
-      <section className="container--secondary relative z-0 before:bg-coral before:w-[3.125rem] before:h-1 before:block">
-        <h2 className="heading max-w-[15rem] mt-8 mb-14 md:max-w-[445px] md:mb-16 ">
-          Build & manage distributed teams like no one else.
-        </h2>
+    <div className="bg-state-green py-16 md:py-[6.25rem] lg:py-[8.75rem]">
+      <section className="container--secondary relative z-0 lg:grid lg:grid-cols-2">
+        <div className="before:bg-coral before:w-[3.125rem] before:h-1 before:block">
+          <h2 className="heading max-w-[15rem] mt-8 mb-14 md:max-w-[445px] md:mb-16 lg:mt-[3.375rem]">
+            Build & manage distributed teams like no one else.
+          </h2>
+        </div>
         {/*wrapper containing BuildFeature components */}
-        <div className="grid gap-y-12 md:gap-y-8">
+        <div className="grid gap-y-12 md:gap-y-8 lg:w-[540px] lg:mt-[3.625rem] lg:justify-self-end">
           <BuildFeature
             image={person}
             heading="Experienced Individuals"
@@ -35,7 +37,8 @@ const Build = props => {
         <img
           src={pattern}
           alt=""
-          className="absolute -top-16 -right-[7.75rem] -z-10 md:-top-[6.25rem] md:-right-[12.375rem]"
+          className="absolute -top-16 -right-[7.75rem] -z-10 md:-top-[6.25rem] md:-right-[12.375rem]
+          lg:-bottom-[8.75rem] lg:top-[unset] lg:-right-[16.5625rem]"
           loading="lazy"
         />
       </section>
