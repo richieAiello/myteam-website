@@ -6,15 +6,16 @@ import { ReactComponent as Twitter } from '../../assets/icons/icon-twitter.svg';
 
 const Footer = props => {
   return (
-    <footer className="bg-darkest-green py-16 md:py-14">
+    <footer className="bg-darkest-green py-16 md:py-14 lg:py-12">
       <div
         className="container text-center flex flex-col items-center 
-        md:grid md:grid-cols-2 md:grid-rows-3 md:gap-y-4"
+        md:grid md:grid-cols-2 md:grid-rows-3 md:gap-y-4 lg:grid-rows-2
+        lg:grid-cols-[auto,1fr,auto] lg:gap-x-[7.8125rem]"
       >
         <img
           src={logo}
           alt=""
-          className="w-24 mb-6 md:mb-0 md:self-start"
+          className="w-24 mb-6 md:mb-0 md:self-start lg:w-auto"
         />
         <ul className="grid grid-flow-col gap-x-6 mb-6 md:text-left md:row-start-2 md:w-max md:self-end md:mb-0">
           <li>
@@ -28,13 +29,16 @@ const Footer = props => {
             </NavLink>
           </li>
         </ul>
-        <address className="mb-10 text-center opacity-60 not-italic md:text-right md:row-span-2 md:mb-0">
+        <address className="mb-10 text-center opacity-60 not-italic md:text-right md:row-span-2 md:mb-0 lg:text-left">
           <p>987 Hillcrest Lane</p>
           <p>Irvine, CA</p>
           <p>California 92714</p>
           <p>Call Us : 949-833-7432</p>
         </address>
-        <div className="grid grid-flow-col gap-x-4 items-center mb-4 md:w-max md:self-end md:mb-0">
+        <div
+          className="grid grid-flow-col gap-x-4 items-center mb-4 md:w-max md:self-end md:mb-0
+          lg:justify-self-end lg:self-start"
+        >
           <a href="#" className="link">
             <Facebook className="icon" />
           </a>
