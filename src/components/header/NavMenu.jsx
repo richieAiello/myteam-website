@@ -11,7 +11,7 @@ const NavMenu = ({ className, onClick }) => {
         md:h-max md:w-full md:static md:bg-transparent md:block md:bg-none
       `}
     >
-      <div className="ml-12 h-max mt-28 md:mt-0 md:flex md:items-center md:justify-between">
+      <div className="ml-12 h-max mt-28 md:mt-0 md:flex md:items-center md:justify-between lg:ml-20">
         <ul className="md:flex">
           <li className="mb-6 md:mb-0 md:mr-10">
             <NavLink to="/" onClick={onClick}>
