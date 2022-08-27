@@ -5,7 +5,7 @@ import patternBottom from '../../../assets/bg-patterns/bg-pattern-home-4-about-3
 const Directors = props => {
   return (
     <div className="bg-jungle-green pt-[5.5rem] pb-[7.25rem] overflow-hidden">
-      <section className="container relative z-0 text-center">
+      <section className="container--secondary relative z-0 text-center">
         <h2 className="heading mb-12">Meet the directors</h2>
         <DirectorsGrid />
         <img
