@@ -5,7 +5,10 @@ const DirectorsGrid = props => {
   const data = directorsData;
 
   return (
-    <div className="grid gap-y-[3.25rem] md:grid-cols-2 md:gap-y-[4.75rem] md:gap-x-3">
+    <div
+      className="grid gap-y-[3.25rem] md:grid-cols-2 md:gap-y-[4.75rem] md:gap-x-3
+      lg:grid-cols-3 lg:gap-x-[1.875rem]"
+    >
       {data.map(item => {
         return (
           <DirectorsCard

@@ -10,8 +10,8 @@ const HeroAbout = props => {
         <h1 className="heading--hero--secondary mb-4 md:mb-6">
           About
         </h1>
-        <div className="before:h-1 before:w-[3.125rem] before:bg-coral before:mb-10 lg:before:block">
-          <p className="leading-7 max-w-[457px] mx-auto lg:mx-0 lg:max-w-[730px] lg:text-lg">
+        <div className="before:h-1 before:w-[3.125rem] before:bg-coral before:mb-10 lg:before:block lg:w-[750px]">
+          <p className="leading-7 max-w-[457px] mx-auto lg:mx-0 lg:text-lg lg:max-w-[730px]">
             We help companies build dynamic teams made up of top
             global talent. Using our network of passionate
             professionals we drive innovation and deliver incredible
