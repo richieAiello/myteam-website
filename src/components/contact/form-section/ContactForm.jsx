@@ -9,9 +9,9 @@ const ContactForm = ({ setState }) => {
     <Formik
       initialValues={initialValues}
       validationSchema={validation}
-      // On successful submit clear form values
-      onSubmit={(values, { setSubmitting }) => {
+      onSubmit={(values, { setSubmitting, resetForm }) => {
         setTimeout(() => {
+          resetForm();
           setState(false);
           setSubmitting(false);
         }, 400);
