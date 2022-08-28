@@ -24,6 +24,13 @@
   resize: none;
 }
 
+.form__input--error {
+  border-color: #f67e7e;
+}
+.form__input--error::placeholder {
+  color: #f67e7e;
+}
+
 .form__error {
   color: #f67e7e;
 }

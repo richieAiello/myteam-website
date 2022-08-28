@@ -46,7 +46,7 @@ const ContactForm = () => {
           <CustomInput
             label="Please provide a message to us."
             name="message"
-            as="textarea"
+            type="textarea"
             placeholder="Message"
             className="form__input--message"
           />

@@ -1,26 +1,21 @@
-import { Field, ErrorMessage } from 'formik';
+import { useField, ErrorMessage } from 'formik';
+import clsx from 'clsx';
 
-const CustomInput = ({
-  name,
-  label,
-  type,
-  placeholder,
-  as,
-  className,
-}) => {
+const CustomInput = ({ label, className, ...props }) => {
+  const [field, meta] = useField(props);
   return (
     <div className="form__wrapper">
-      <label htmlFor={name} className="ninja">
+      <label htmlFor={field.name} className="ninja">
         {label}
       </label>
-      <Field
-        name={name}
-        type={type}
-        className={className}
-        placeholder={placeholder}
-        as={as}
+      <input
+        {...field}
+        {...props}
+        className={`${className} ${clsx({
+          'form__input--error': meta.touched && meta.error,
+        })}`}
       />
-      <ErrorMessage name={name}>
+      <ErrorMessage name={field.name}>
         {msg => <div className="form__error">{msg}</div>}
       </ErrorMessage>
     </div>
