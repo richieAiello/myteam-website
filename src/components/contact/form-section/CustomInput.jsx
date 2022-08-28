@@ -4,7 +4,7 @@ import clsx from 'clsx';
 const CustomInput = ({ label, ...props }) => {
   const [field, meta] = useField(props);
   return (
-    <div className="form__wrapper">
+    <div>
       <label htmlFor={field.name} className="ninja">
         {label}
       </label>

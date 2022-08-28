@@ -4,14 +4,16 @@ import CustomInput from './CustomInput';
 import CustomTextArea from './CustomTextArea';
 import SubmitBtn from './SubmitBtn';
 
-const ContactForm = () => {
+const ContactForm = ({ setState }) => {
   return (
     <Formik
       initialValues={initialValues}
       validationSchema={validation}
+      // On successful submit clear form values
       onSubmit={(values, { setSubmitting }) => {
         setTimeout(() => {
-          console.log('success');
+          setState(false);
+          setSubmitting(false);
         }, 400);
       }}
     >
