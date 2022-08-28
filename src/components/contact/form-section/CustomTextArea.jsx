@@ -1,18 +1,19 @@
 import { useField, ErrorMessage } from 'formik';
 import clsx from 'clsx';
 
-const CustomInput = ({ label, ...props }) => {
+const CustomTextArea = ({ label, rows, ...props }) => {
   const [field, meta] = useField(props);
   return (
     <div className="form__wrapper">
       <label htmlFor={field.name} className="ninja">
         {label}
       </label>
-      <input
+      <textarea
         {...field}
         {...props}
+        rows={rows}
         className={`
-          form__input
+          form__input--message 
           ${clsx({
             'form__input--error': meta.touched && meta.error,
           })}
@@ -25,4 +26,4 @@ const CustomInput = ({ label, ...props }) => {
   );
 };
 
-export default CustomInput;
+export default CustomTextArea;
