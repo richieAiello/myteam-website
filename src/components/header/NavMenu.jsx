@@ -14,12 +14,12 @@ const NavMenu = ({ className, onClick }) => {
       <div className="ml-12 h-max mt-28 md:mt-0 md:flex md:items-center md:justify-between lg:ml-20">
         <ul className="md:flex">
           <li className="mb-6 md:mb-0 md:mr-10">
-            <NavLink to="/" onClick={onClick}>
+            <NavLink to="/" onClick={onClick} className="link">
               home
             </NavLink>
           </li>
           <li className="mb-[2.25rem] md:mb-0">
-            <NavLink to="about" onClick={onClick}>
+            <NavLink to="/about" onClick={onClick} className="link">
               about
             </NavLink>
           </li>

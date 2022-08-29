@@ -4,7 +4,7 @@ import clsx from 'clsx';
 const ContactBtn = ({ light, dark, onClick }) => {
   return (
     <Link
-      to="contact"
+      to="/contact"
       onClick={onClick}
       className={`
         bg-transparent border-2 border-solid rounded-3xl 

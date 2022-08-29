@@ -6,7 +6,7 @@ import { ReactComponent as Twitter } from '../../assets/icons/icon-twitter.svg';
 
 const Footer = props => {
   return (
-    <footer className="bg-darkest-green py-16 md:py-14 lg:py-12">
+    <footer className="bg-darkest-green py-16 md:py-14 lg:py-12 mt-auto">
       <div
         className="container text-center flex flex-col items-center 
         md:grid md:grid-cols-2 md:grid-rows-3 md:gap-y-4 lg:grid-rows-2
@@ -24,7 +24,7 @@ const Footer = props => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="about" className="link">
+            <NavLink to="/about" className="link">
               about
             </NavLink>
           </li>

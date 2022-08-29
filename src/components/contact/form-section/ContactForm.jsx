@@ -11,9 +11,9 @@ const ContactForm = ({ setState }) => {
       validationSchema={validation}
       onSubmit={(values, { setSubmitting, resetForm }) => {
         setTimeout(() => {
-          resetForm();
           setState(false);
           setSubmitting(false);
+          resetForm();
         }, 400);
       }}
     >
