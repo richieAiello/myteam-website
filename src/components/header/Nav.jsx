@@ -32,10 +32,12 @@ const Nav = props => {
   }, [menuVisibility]);
 
   const handleHamburgerClick = e => {
-    setLoading(true);
-    setMenuVisibility(!menuVisibility);
-    hidden && setHidden(false);
-    menuVisibility ? setAnimateOut(true) : setAnimateIn(true);
+    if (!loading) {
+      setLoading(true);
+      setMenuVisibility(!menuVisibility);
+      hidden && setHidden(false);
+      menuVisibility ? setAnimateOut(true) : setAnimateIn(true);
+    }
   };
 
   const handleLinkClick = e => {
